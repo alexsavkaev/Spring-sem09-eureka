@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: tasks
+  jpa:
+    generate-ddl: false
+
+    hibernate:
+    ddl-auto: none
+server:
+  port: 8082

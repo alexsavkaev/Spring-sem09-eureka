@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Eureka" type="CompoundRunConfigurationType">
+    <toRun name="EurekaServiceApplication" type="Application" />
+    <toRun name="GateWay" type="Application" />
+    <toRun name="Tasks" type="Application" />
+    <toRun name="Notes" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>

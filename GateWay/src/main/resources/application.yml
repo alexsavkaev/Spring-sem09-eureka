@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: GateWay
+  cloud:
+    gateway:
+      routes:
+        - id: notes
+          uri: http://localhost:8081
+          predicates:
+            - Path=/notes/**
+
+        - id: tasks
+          uri: http://localhost:8082
+          predicates:
+            - Path=/tasks/**
+
+server:
+  port: 8765
+

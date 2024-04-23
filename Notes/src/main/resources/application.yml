@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: notes
+server:
+  port: 8081
+
