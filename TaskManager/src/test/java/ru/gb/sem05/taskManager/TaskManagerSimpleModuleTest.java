@@ -115,7 +115,7 @@ class TaskManagerSimpleModuleTest {
 		Long id = 1L;
 		given(taskRepository.findById(id)).willReturn(Optional.empty());
 
-		// when
+		// then
 		assertThrows(IllegalArgumentException.class, () -> taskService.updateTask(id, updatedTask));
 	}
 
